@@ -18,7 +18,7 @@ const SearchBtn = ({
     <div className="flex  w-full h-inputHeight  bg-[#F5F5F5] px-2 items-center">
       <input
         name="search"
-        placeholder=" Type press the Enter key to search "
+        placeholder=" Type and press the Enter key to search "
         className="flex-grow"
         type={"text"}
         onChange={(e) => setSearch(e.target.value)}
